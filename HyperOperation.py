@@ -8,6 +8,7 @@ def HyperOperation(a,level,b):
         return a
     return HyperOperation(a,level-1,HyperOperation(a,level,b-1))
 
-print(HyperOperation(3,1,3))    
-print(HyperOperation(3,2,3))
+print(HyperOperation(3,1,2))
 print(HyperOperation(3,2,2))
+print(HyperOperation(3,2,3))
+#print(HyperOperation(3,3,3))
